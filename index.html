@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="tic-tac-toe.js"></script>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+            <div class="turn-container">
+                <div><h1>TURN</h1></div>
+                <div id="turn">
+                    <div id="X" class="XO">X</div>
+                    <div id="O" class="XO">O</div>
+                </div>
+            </div>
+            <div class="main-grid">
+                <div class="box align bl-0 bt-0"></div>
+                <div class="box align bt-0"></div>
+                <div class="box align br-0 bt-0"></div>
+                <div class="box align bl-0"></div>
+                <div class="box align"></div>
+                <div class="box align br-0"></div>
+                <div class="box align bl-0 bb-0"></div>
+                <div class="box align bb-0"></div>
+                <div class="box align br-0 bb-0"></div>
+            </div>
+            <h2 id="results"></h2>
+            <button id="play-again" class="btn">Play Again</button>
+            <button id="reset" class="btn">Reset</button>
+    </center>
+</body>
+</html>

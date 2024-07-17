@@ -1,0 +1,92 @@
+*{
+  color: white;
+  transition: ease all 0.2s;
+}
+#turn {
+display: flex;
+justify-content: center;
+}
+.XO {
+width: 3.5vw;
+font-size: 2vw;
+border: 3px solid #000;
+}
+
+body {
+/* background-color: #252a34; */
+background-color: #172A3A;
+}
+.turn-container {
+color: white;
+}
+#X {
+/* background-color: #ff2e63; */
+background-color: #09BC8A;
+}
+.main-grid {
+display: grid;
+grid-template-rows: repeat(3, 8vw);
+grid-template-columns: repeat(3, 8vw);
+text-align: center;
+height: 300px;
+width: 300px;
+margin: 6vw 82.5vw 10vw 37.5vw;
+/* border: 2px solid #000; */
+}
+.box {
+border: 3px solid white;
+text-align: center;
+padding-top: 15px;
+font-size: 4.5vw;
+font-weight: 700;
+}
+.box:hover {
+/* background-color: #ff2e63; */
+background-color: #508991;
+cursor: pointer;
+}
+.br-0 {
+border-right: none;
+}
+.bl-0 {
+border-left: none;
+}
+.bb-0 {
+border-bottom: none;
+}
+.bt-0 {
+border-top: none;
+}
+.btn {
+position: relative;
+letter-spacing: 0.1em;
+font-size: 25px;
+font-weight: 400;
+/* background-color: #252a34; */
+background-color: #172A3A;
+color: white;
+border: 2px solid white;
+/* margin: 300px 400px 300px 600px; */
+text-transform: uppercase;
+transition: ease all 0.2s;
+padding: 10px 10px;
+}
+.btn:hover {
+border: 2px solid cyan;
+color: cyan;
+transform: scale(1.2);
+transition: ease all 0.2s;
+box-shadow: 0px 0px 20px 1px;
+cursor: pointer;
+}
+#results{
+margin-top: 6vw;
+font-size: 4vw;
+}
+#play-again{
+display: none;
+position: relative;
+}
+#reset{
+  margin-top: 3vw;
+}
