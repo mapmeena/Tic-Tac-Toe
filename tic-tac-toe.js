@@ -37,11 +37,11 @@ function checkWin(){
 
         if(v0!=="" && v0===v1 && v0===v2){
             // alert(turn);
-            // $(".main-grid").css("display","none");
+             $(".main-grid").css("display","none");
             gameOver=true;
-            // $("#results").html("Congratulation , "+turn+" Wins");
-            // $("#play-again").css("display","inline");
-            // $("#reset").css("display","none");
+            $("#results").html("Congratulation , "+turn+" Wins");
+             $("#play-again").css("display","inline");
+             $("#reset").css("display","none");
             for(j=0;j<3;j++){
                 $(boxes[winConditions[i][j]]).css("background-color","#75DDDD");
             }
